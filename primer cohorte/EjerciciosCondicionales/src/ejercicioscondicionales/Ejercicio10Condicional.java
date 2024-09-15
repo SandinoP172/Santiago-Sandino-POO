@@ -23,13 +23,13 @@ public class Ejercicio10Condicional {
 
         if (horastrabajadas < 40) {
             int paga = horastrabajadas * 5000;
-            System.out.println("se le pagara de salario la suma de" + paga);
+            System.out.println("se le pagara de salario la suma de $" + paga);
         } else {
             int horasextras = (horastrabajadas - 40);
             double valorhextra = (horasextras * 5000) * 0.2;
             int paga = horastrabajadas * 5000;
             double suma = valorhextra + paga;
-            System.out.println("se le pagara de salario la suma de " + suma );
+            System.out.println("se le pagara de salario la suma de $" + suma);
 
         }
     }
